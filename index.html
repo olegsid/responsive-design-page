@@ -7,29 +7,204 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Holla</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="dist/main.css">
 </head>
 
 <body>
   <div class="layout">
-    <header class="main-header">
-      <div class="content-container">
-        <h1 class="visually-hidden">Awesome website</h1>
-        <img class="main-logo" src="" alt="logo">
-        <nav class="main-menu">
-          <a href="#">Home</a>
-          <a href="#">Home</a>
-          <a href="#">Home</a>
-          <a href="#">Home</a>
+    <header class="main-header layout__header">
+      <div class="main-header__logo-wrapper">
+        <img class="main-header__logo-image" src="assets/logo.png" alt="logo">
+      </div>
+
+      <div class="main-header__container">
+        <input id="hamburger" class="hamburger-checkbox" type="checkbox">
+        <label class="hamburger-label" for="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></label>
+        <nav class="main-menu main-header__menu">
+          <a class="main-menu__link" href="#">Home</a>
+          <a class="main-menu__link" href="#">About</a>
+          <a class="main-menu__link" href="#">Menu</a>
+          <a class="main-menu__link" href="#">Contact</a>
+          <a class="main-menu__link" href="#">Blog</a>
         </nav>
-        <div>
-          <div class="social-icons"></div>
+        <div class="social main-header__social">
+          <a class="search-button main-header__search-button" href="#"><i class="fa fa-search"></i></i></a>
+          <a class="social__link" href="#"><i class="fa wp-icon fa-facebook-f fa-lg"></i></a>
+          <a class="social__link" href="#"><i class="fa wp-icon fa-linkedin fa-lg"></i></aa>
+            <a class="social__link" href="#"><i class="fa wp-icon fa-twitter fa-lg"></i></a>
+            <a class="social__link" href="#"><i class="fa wp-icon fa-instagram fa-lg"></i></a>
+            <a class="social__link" href="#"><i class="fa wp-icon fa-youtube fa-lg"></i></a>
+            <a class="social__link" href="#"><i class="fa wp-icon fa-pinterest fa-lg"></i></a>
         </div>
       </div>
     </header>
-    <main></main>
-    <aside></aside>
-    <footer></footer>
+    <div class="content layout__content-container">
+      <main class="main-content layout__main-content">
+        <article class="card">
+          <a class="card__link" href="">
+            <div class="card__image-wrapper">
+              <img class="card__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+            </div>
+            <h2 class="card__heading">
+              HEADING
+            </h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="card__details">
+              <span class="card__publication fa fa-calendar">
+                today
+              </span>
+              <span class="card__rate fa fa-thumbs-up">
+                1000
+              </span>
+              <span class="card__comments fa fa-comments">
+                1000
+              </span>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a class="card__link" href="">
+            <div class="card__image-wrapper">
+              <img class="card__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+            </div>
+            <h2 class="card__heading">
+              HEADING
+            </h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="card__details">
+              <span class="card__publication fa fa-calendar">
+                today
+              </span>
+              <span class="card__rate fa fa-thumbs-up">
+                1000
+              </span>
+              <span class="card__comments fa fa-comments">
+                1000
+              </span>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a class="card__link" href="">
+            <div class="card__image-wrapper">
+              <img class="card__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+            </div>
+            <h2 class="card__heading">
+              HEADING
+            </h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="card__details">
+              <span class="card__publication fa fa-calendar">
+                today
+              </span>
+              <span class="card__rate fa fa-thumbs-up">
+                1000
+              </span>
+              <span class="card__comments fa fa-comments">
+                1000
+              </span>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a class="card__link" href="">
+            <div class="card__image-wrapper">
+              <img class="card__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+            </div>
+            <h2 class="card__heading">
+              HEADING
+            </h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="card__details">
+              <span class="card__publication fa fa-calendar">
+                today
+              </span>
+              <span class="card__rate fa fa-thumbs-up">
+                1000
+              </span>
+              <span class="card__comments fa fa-comments">
+                1000
+              </span>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a class="card__link" href="">
+            <div class="card__image-wrapper">
+              <img class="card__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+            </div>
+            <h2 class="card__heading">
+              HEADING
+            </h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="card__details">
+              <span class="card__publication fa fa-calendar">
+                today
+              </span>
+              <span class="card__rate fa fa-thumbs-up">
+                1000
+              </span>
+              <span class="card__comments fa fa-comments">
+                1000
+              </span>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a class="card__link" href="">
+            <div class="card__image-wrapper">
+              <img class="card__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+            </div>
+            <h2 class="card__heading">
+              HEADING
+            </h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="card__details">
+              <span class="card__publication fa fa-calendar">
+                today
+              </span>
+              <span class="card__rate fa fa-thumbs-up">
+                1000
+              </span>
+              <span class="card__comments fa fa-comments">
+                1000
+              </span>
+            </div>
+          </a>
+        </article>
+      </main>
+      <aside class="sidebar-content layout__sidebar">
+        <section class="author sidebar-content__author">
+          <div class="author__photo-wrapper">
+            <img class="author__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+          </div>
+          <p class="author__info">author</p>
+        </section>
+        <section class="author sidebar-content__bottom">
+            <div class="author__photo-wrapper">
+              <img class="author__photo" src="http://www.housingeurope.eu/image/163/sectionheaderpng/resourcesdef.png" alt="">
+            </div>
+            <p class="author__info">author</p>
+          </section>
+      </aside>
+    </div>
+    <footer class="layout__footer"></footer>
   </div>
 
   <script src="dist/bundle.js"></script>

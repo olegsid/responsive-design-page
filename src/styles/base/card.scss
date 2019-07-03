@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebe9d7;
+  padding: 5px;
+}
+
+.card__link {
+  color: #822619;
+}
+
+.card__image-wrapper {
+  border: 2px solid rgba(27, 101, 104, 1);
+  overflow: hidden;
+}
+
+.card__photo {
+  max-width: 100%;
+  transition: transform 1s ease-out;
+}
+
+.card__photo:hover {
+  transform: scale(1.5)
+}
+
+.card__heading {
+  font-family: Lobster;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.card__text {
+  font-family: 'IM Fell French Canon', serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.card__details {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.card__details span:hover {
+  color: #962d1e
+}

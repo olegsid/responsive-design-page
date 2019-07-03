@@ -10,9 +10,14 @@
 
 body {
   min-height: 100vh;
+  font-style: 16px;
 }
 
-.content-container{
-  max-width: 1200px;
-  margin: auto;
+a{
+  text-decoration: none;
+}
+
+a:active, a:focus {
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
 }

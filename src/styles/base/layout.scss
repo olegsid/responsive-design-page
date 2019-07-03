@@ -1,5 +1,19 @@
-.layout{
+.layout {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
-  grid-template-rows: 100px minmax(auto, auto) 100px;
+  grid-template-rows: minmax(100px, max-content) minmax(auto, auto) 100px;
+  grid-row-gap: 1rem;
+  background-image: url(../../assets/bg-pattern.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.layout__header {
+  grid-column: 1 / 4;
+  grid-row: 1 /2;
+}
+
+.layout__content-container {
+  grid-column: 2 / 3;
 }
