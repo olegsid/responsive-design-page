@@ -35,13 +35,13 @@
 
 .user-comment {
   margin-top: 1rem;
-  max-width: 200px; 
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .commentaries {
     flex-direction: row;
     flex-wrap: wrap;

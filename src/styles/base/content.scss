@@ -41,7 +41,7 @@
   justify-content: center;
 }
 
-.author__info{
+.author__info {
   font-family: Lobster;
   text-transform: uppercase;
   margin: 1rem;
@@ -52,16 +52,16 @@
   max-width: 200px;
 }
 
-.sidebar-content__social{
+.sidebar-content__social {
   justify-content: center;
   margin: 3rem 0;
 
 }
 
 @media (max-width: 1200px) {
-  .content{
+  .content {
     padding: 1rem;
-  } 
+  }
 }
 
 @media (max-width: 840px) {
@@ -69,7 +69,7 @@
   .content,
   .sidebar-content {
     display: grid;
-    grid-template-rows: 250px 1fr minmax(850px,auto)
+    grid-template-rows: 250px 1fr minmax(850px, auto)
   }
 
   .main-content {
@@ -95,9 +95,9 @@
 }
 
 @media (max-width: 540px) {
+
   .content,
   .sidebar-content {
     display: grid;
   }
 }
-

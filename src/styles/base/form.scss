@@ -5,10 +5,10 @@
   justify-content: space-around;
   flex-direction: column;
   background-color: rgba(27, 101, 104, 1);
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.4)
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4)
 }
 
-.form__search{
+.form__search {
   flex-direction: row;
   align-items: baseline;
 }
@@ -22,13 +22,13 @@
   border: 2px solid rgba(27, 101, 104, 1);
 }
 
-.form__input--search{
+.form__input--search {
   width: 100px;
   flex-grow: 2;
   margin-right: 0.5rem;
 }
 
-.form__input:focus{
+.form__input:focus {
   border: 2px solid #ebe9d7;
 }
 
