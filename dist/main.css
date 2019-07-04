@@ -533,7 +533,9 @@ a:focus {
     position: relative;
     top: 10px;
     border-bottom: 2px solid white;
-    content: '  '; } }
+    content: '  '; }
+  .main-header__social {
+    flex-direction: column; } }
 
 .content {
   display: grid;
