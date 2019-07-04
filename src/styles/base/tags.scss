@@ -1,0 +1,18 @@
+.tags {
+  text-align: center;
+  margin: 2rem;
+}
+
+.tags__link {
+  display: inline-block;
+  margin: 0.2rem;
+  padding: 0.2em 0.5em;
+  font-size: 20px;
+  color: white;
+  background-color: #1b6568;
+  border-radius: 5px;
+}
+
+.tags__link::before{
+  margin-right: 0.2em;
+}

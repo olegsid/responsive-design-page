@@ -17,3 +17,8 @@
 .layout__content-container {
   grid-column: 2 / 3;
 }
+
+.layout__content-footer {
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+}
